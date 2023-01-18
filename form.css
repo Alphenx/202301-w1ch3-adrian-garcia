@@ -1,0 +1,25 @@
+.form-container {
+  padding: 30px;
+}
+
+.form-container h2 {
+  margin-bottom: 15px;
+}
+.form-container p {
+  margin-top: 10px;
+}
+
+.form-container input:not([type="submit"]) {
+  border-style: none;
+  margin-top: 5px;
+  height: 30px;
+}
+
+.form-container input[type="submit"] {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  color: aliceblue;
+  background-color: rgb(9, 88, 9);
+  border-style: none;
+}

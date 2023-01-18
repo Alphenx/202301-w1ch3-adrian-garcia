@@ -12,7 +12,7 @@ ul {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: lightgoldenrodyellow;
+  background-color: rgb(214, 173, 98);
 }
 
 .list-container {
@@ -55,4 +55,8 @@ body {
   position: absolute;
   bottom: -10px;
   right: 30px;
+}
+
+.header-primary-box li:nth-child(2) {
+  font-weight: bold;
 }

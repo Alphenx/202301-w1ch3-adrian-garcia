@@ -27,9 +27,6 @@ header {
   padding-right: 5px;
 }
 
-.header-primary-box li:nth-child(2) {
-  font-weight: bold;
-}
 .header-secondary-box {
   background-color: rgb(9, 88, 9);
   height: 60px;

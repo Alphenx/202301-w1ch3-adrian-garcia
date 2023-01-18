@@ -6,6 +6,53 @@
   box-sizing: border-box;
 }
 
-html {
+ul {
+  list-style: none;
+}
+
+body {
   font-family: "Montserrat", sans-serif;
+  background-color: lightgoldenrodyellow;
+}
+
+.list-container {
+  position: relative;
+  display: flex;
+  padding: 15px;
+}
+
+.list-container__products,
+.list-container__prices {
+  flex-direction: column;
+  gap: 6px;
+  border-bottom: black solid 1px;
+}
+
+.list-container__products {
+  width: 50%;
+}
+
+.list-container__products input[type="checkbox"] + label {
+  padding-left: 6px;
+}
+
+.list-container__products input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+  color: red;
+}
+
+.list-container__prices {
+  width: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.list-container__prices i {
+  padding-left: 6px;
+}
+
+.list-container__final-price {
+  position: absolute;
+  bottom: -10px;
+  right: 30px;
 }

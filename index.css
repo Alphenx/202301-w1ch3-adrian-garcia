@@ -24,6 +24,7 @@ body {
 .list-container__products,
 .list-container__prices {
   flex-direction: column;
+  gap: 6px;
   border-bottom: black solid 1px;
 }
 

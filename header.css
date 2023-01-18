@@ -1,0 +1,22 @@
+.header-primary-box {
+  background-color: greenyellow;
+  display: flex;
+}
+
+.header-primary-box__title {
+  font-size: 20px;
+}
+
+.header-primary-box ul {
+  list-style: none;
+  display: flex;
+}
+
+.header-primary-box li {
+  font-size: 15px;
+  align-items: flex-end;
+}
+
+.header-secondary-box {
+  background-color: green;
+}
